@@ -1,9 +1,5 @@
 FROM alpine:latest
 
-# Environment variables
-ENV MC_VERSION=""
-ENV PAPER_MC_BUILD=""
-
 COPY papermc.sh .
 RUN apk update \
     && apk add libstdc++ \
