@@ -7,7 +7,7 @@ RUN apk update \
     && apk add bash \
     && apk add wget \
     && apk add jq \
-    && mkdir /papermc
+    && mkdir -p /papermc
 
 # Start script
 CMD ["bash", "./papermc.sh"]

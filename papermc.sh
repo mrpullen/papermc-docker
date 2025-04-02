@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Enter server directory
+mkdir -p /papermc
 cd papermc
 
 # Lowercase these to avoid 404 errors on wget
